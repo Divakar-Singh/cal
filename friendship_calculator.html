@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friendship Calculator - Calculator Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="friendship_calculator.css"> <!-- Link to Friendship Calculator specific CSS -->
+</head>
+<body>
+  <header>
+    <h1>Welcome to Calculator Website</h1>
+    <nav>
+        <ul>
+            <li class="dropdown">
+                <a href="index.html">Home</a>
+                
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Health & Fitness</a>
+                <div class="dropdown-content">
+                    <div class="menu-section">
+                        <a href="bmi_calculator.html">BMI Calculator</a>
+                        <a href="calorie_calculator.html">Calorie Intake Calculator</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Financial Calculators</a>
+                <div class="dropdown-content">
+                    <div class="menu-section">
+                        <!-- <h3>Loans & Mortgages</h3> -->
+                        <a href="emi_calculator.html">EMI Calculator</a>
+                    </div>
+            </div>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">SEO Tools</a>
+                <div class="dropdown-content">
+                    <div class="menu-section">
+                        <!-- <h3>Loans & Mortgages</h3> -->
+                        <a href="schema.html">Schema Markup Generator</a>
+                    </div>
+            </div>
+            </li>
+
+
+
+
+            <li class="dropdown">
+                <a href="#">Other Tools</a>
+                <div class="dropdown-content">
+                    <div class="menu-section">
+                        <h3>Conversion Tools</h3>
+                        <a href="length_converter.html">Length Converter</a>
+                        <a href="pixel_to_inches_calculator.html">Inches to Pixel Calculator</a>
+                    </div>
+                    <div class="menu-section">
+                        <h3>Relationships</h3>
+                        <a href="age_calculator.html">Age Calculator</a>
+                        <a href="love_calculator.html">Love Calculator</a>
+                        <a href="friendship_calculator.html">Friendship Calculator</a>
+                    </div>
+                    <div class="menu-section">
+                        <h3>General</h3>
+                        <a href="calculator.html">Calculator</a>
+                        <a href="password_generator.html">Password Generator</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</header>
+  
+  <main>
+    <section class="calculator-container"> <!-- Add calculator-container class -->
+      <h2>Calculate Your Friendship</h2>
+      <div class="input-container">
+        <label for="name1">Name 1:</label>
+        <input type="text" id="name1" required>
+      </div>
+      <div class="input-container">
+        <label for="name2">Name 2:</label>
+        <input type="text" id="name2" required>
+      </div>
+      <button onclick="calculateFriendship()">Calculate Friendship</button>
+      <div id="friendship-result"></div>
+      <p>This is only just for fun and nothing can calculate your Friendship.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Calculator Website. Developed and Designed by Divakar Singh</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

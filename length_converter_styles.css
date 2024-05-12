@@ -1,0 +1,47 @@
+/* Length Converter styles */
+
+/* Calculator container */
+.calculator-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Input fields */
+  .calculator-container input, .calculator-container select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Calculate button */
+  .calculator-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .calculator-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Result container */
+  .result-container {
+    margin-top: 20px;
+  }
+  
+  .result-container #result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  

@@ -1,2 +1,1 @@
-# cal
-This a Tool and calculator website which help you 
+This Project I have made just for fun and practice

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schema Markup Generator</title>
+    <link rel="stylesheet" href="schestyle.css">
+    <link rel="stylesheet" href="navstyle.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Calculator Website</h1>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="index.html">Home</a>
+                    
+                </li>
+
+                <li class="dropdown">
+                    <a href="#">Health & Fitness</a>
+                    <div class="dropdown-content">
+                        <div class="menu-section">
+                            <a href="bmi_calculator.html">BMI Calculator</a>
+                            <a href="calorie_calculator.html">Calorie Intake Calculator</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#">Financial Calculators</a>
+                    <div class="dropdown-content">
+                        <div class="menu-section">
+                            <!-- <h3>Loans & Mortgages</h3> -->
+                            <a href="emi_calculator.html">EMI Calculator</a>
+                        </div>
+                </div>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#">SEO Tools</a>
+                    <div class="dropdown-content">
+                        <div class="menu-section">
+                            <!-- <h3>Loans & Mortgages</h3> -->
+                            <a href="schema.html">Schema Markup Generator</a>
+                        </div>
+                </div>
+                </li>
+
+
+
+
+                <li class="dropdown">
+                    <a href="#">Other Tools</a>
+                    <div class="dropdown-content">
+                        <div class="menu-section">
+                            <h3>Conversion Tools</h3>
+                            <a href="length_converter.html">Length Converter</a>
+                            <a href="pixel_to_inches_calculator.html">Inches to Pixel Calculator</a>
+                        </div>
+                        <div class="menu-section">
+                            <h3>Relationships</h3>
+                            <a href="age_calculator.html">Age Calculator</a>
+                            <a href="love_calculator.html">Love Calculator</a>
+                            <a href="friendship_calculator.html">Friendship Calculator</a>
+                        </div>
+                        <div class="menu-section">
+                            <h3>General</h3>
+                            <a href="calculator.html">Calculator</a>
+                            <a href="password_generator.html">Password Generator</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+
+
+
+
+    <div class="container">
+        <div class="left-section">
+            <h2>Schema Markup Generator</h2>
+            <div>
+                <label for="schema-type">Select Schema Type:</label>
+                <select id="schema-type">
+                    <option value="Corporation">Corporation</option>
+                    <option value="LocalBusiness">Local Business</option>
+                    <option value="WebSite">Website</option>
+                    <option value="FAQPage">FAQ Page</option>
+                    <option value="Article">Article</option>
+                    <option value="NewsArticle">News Article</option>
+                    <option value="BlogPosting">Blog Posting</option>
+                    <option value="Product">Product</option>
+                </select>
+            </div>
+            <div id="input-options"></div>
+            <button id="generate-schema">Generate Schema</button>
+        </div>
+        <div class="right-section">
+            <h2>Output JSON</h2>
+           
+            <p class="paragraph">Copy the below code and enter it in your website</p>
+            <div class="outct">
+                <p class="paragraph"> &lt;script type="application/ld+json"&gt; </p>
+            <div id="output"></div>
+            <p class="paragraph"> &lt;/script&gt; </p>
+            </div>
+            <button class="btn-sch" id="reset-schema">Reset</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Calculator Website. Developed and Designed by Divakar Singh</p>
+      </footer>
+
+    <script src="scri.js"></script>
+</body>
+</html>
